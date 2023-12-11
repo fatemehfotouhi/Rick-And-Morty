@@ -1,12 +1,12 @@
 import "./App.css"
 import Navbar, { Favourites, Logo, SearchInput, SearchResult } from "./components/Navbar"
-import CharactersList from "./components/charactersList"
 import CharacterDetails from "./components/CharacterDetails"
 import { useState } from "react";
 import Loader from "./components/Loader";
 import { Toaster } from "react-hot-toast";
 import useCharacters from "./hooks/useCharacters";
 import useLocalStorage from "./hooks/useLocalStorage";
+import CharactersList from "./components/charactersList";
 
 
 function App() {
