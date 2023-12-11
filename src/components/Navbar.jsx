@@ -1,7 +1,7 @@
 import { HeartIcon, TrashIcon } from "@heroicons/react/24/outline"
 import { useState } from "react";
 import Modal from "./Modal";
-import { CharacterItem } from "./charactersList";
+import { CharacterItem } from "./CharactersList";
 
 function Navbar({ children }) {
     return (
