@@ -6,7 +6,7 @@ import Loader from "./components/Loader";
 import { Toaster } from "react-hot-toast";
 import useCharacters from "./hooks/useCharacters";
 import useLocalStorage from "./hooks/useLocalStorage";
-import CharactersList from "./components/charactersList";
+import CharactersList from "./components/CharactersList";
 
 
 function App() {
